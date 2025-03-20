@@ -20,7 +20,7 @@ export default function LudoBoard() {
                 return { ...preMoves, yellow: preMoves.yellow + 1 }
             }
         );
-        console.log(moves.blue);
+        console.log(moves.yellow);
     }
     let updateGreen = () => {
         setMoves(
@@ -28,7 +28,7 @@ export default function LudoBoard() {
                 return { ...preMoves, green: preMoves.green + 1 }
             }
         );
-        console.log(moves.blue);
+        console.log(moves.green);
     }
     let updateRed = () => {
         setMoves(
@@ -36,7 +36,7 @@ export default function LudoBoard() {
                 return { ...preMoves, red: preMoves.red + 1 }
             }
         );
-        console.log(moves.blue);
+        console.log(moves.red);
     }
 
     return (
