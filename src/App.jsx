@@ -1,13 +1,10 @@
-import Counter from "./Counter.jsx"
 import './App.css'
-import LikeButton from "./LikeButton.jsx"
-
+import LudoBoard from './LudoBoard'
 
 function App() {
   return (
     <>
-      <p>States In React</p>
-      <LikeButton/>
+      <LudoBoard/>
     </>
   )
 }
