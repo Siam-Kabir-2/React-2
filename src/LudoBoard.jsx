@@ -9,6 +9,8 @@ export default function LudoBoard() {
             (preMoves) => {
                 return { ...preMoves, blue: preMoves.blue + 1 }
             }
+            /*If array then it should also be spreaded like [...preMoves,new thing that I want to add
+            ] */
         );
         console.log(moves.blue);
     }
